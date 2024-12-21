@@ -15,15 +15,15 @@ const HeroSec = () => {
           <div className="shopping">
             <p>Also Available On</p>
             <div className="brand_icons">
-              <img src="public/images/flipkart.png" alt="amazon-logo" />
-              <img src="public/images/amazon.png  " alt="flipkart-logo" />
+              <img src="../public/images/flipkart.png" alt="amazon-logo" />
+              <img src="../public/images/amazon.png  " alt="flipkart-logo" />
             </div>
           </div>
         </div>
       </div>
 
       <div className="hero_pic">
-        <img src="public/images/shoe_image.png" alt="shoe" />
+        <img src="../public/images/shoe_image.png" alt="shoe" />
       </div>
     </main>
   );
