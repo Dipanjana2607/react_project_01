@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.hero_content{
+  display: flex;
+  flex-direction: column;
+  /* gap: 26px; */
+}
+button {
+  all: unset; /* Resets all default styles */
+  display: inline-flex; /* Flex container for better alignment */
+  align-items: center; /* Centers content vertically */
+  justify-content: center; /* Centers content horizontally */
+  background-color: #ff4d4d; /* Softer red for better UI aesthetics */
+  height: 40px; /* Adjusted height for better appearance */
+  padding: 0 20px; /* Horizontal padding for consistent spacing */
+  width: auto; /* Allows flexible sizing if needed */
+  color: #fff; /* White text for contrast */
+  font-weight: 600; /* Slightly bolder text for emphasis */
+  font-size: 14px; /* Standard font size for readability */
+  border-radius: 5px; /* Rounded corners for modern look */
+  cursor: pointer; /* Pointer cursor for interaction hint */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #e60000; /* Darker red on hover */
+}
+
+button:active {
+  background-color: #cc0000; /* Even darker red for click feedback */
+}
+
+button:focus {
+  outline: 2px solid #ffa07a; /* Accessible focus outline */
+  outline-offset: 2px; /* Offset for clarity */
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+  
+}
+.links{
+  display: flex;
+  gap: 50px;
+  list-style-type: none;
+}
+.hero{
+  display: flex;
+  max-width: 1280px;
+  margin:10px auto;
+  margin-top: auto;
+  height: calc(100vh-72px);
+}
+
+.hero h1{
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+
+}
+
+.hero p{
+  font-weight:600 ;
+  color: grey;
+  max-width: 500px;
+}
+
+.buttons{
+  display: flex;
+  gap: 40px;
+}
+
+.brand_icons{
+  display: flex;
+  gap: 40px;
+}
+.last{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
